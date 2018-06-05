@@ -1,0 +1,15 @@
+# despite what the book say it's actually bad practice to use either:
+#from tkinter import *
+#from tkinter import Tk
+
+import tkinter
+
+Height=500
+Width=800
+window=tkinter.Tk()
+window.title('Bubble balaster')
+c=tkinter.canvas(window,width=Width,height=Height,bg='darkblue')
+c.pack()
+
+window.mainloop()
+
